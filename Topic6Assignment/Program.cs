@@ -62,8 +62,8 @@
                 Console.WriteLine("Wrong. It was " + guessGame + ".");
             }
             int roll1, roll2;
-            roll1 = generator.Next(1, 6);
-            roll2 = generator.Next(1, 6);
+            roll1 = generator.Next(1, 7);
+            roll2 = generator.Next(1, 7);
             Console.WriteLine("Rolling dice.");
             Console.WriteLine(roll1 + " " + roll2);
             if (roll1 == 1 && roll2 == 1)
@@ -79,7 +79,7 @@
             Console.ForegroundColor = ConsoleColor.DarkGray;
             Console.ReadLine();
             Console.ForegroundColor = ConsoleColor.White;
-            eightball = generator.Next(1, 8);
+            eightball = generator.Next(1, 9);
             if (eightball == 1)
             {
                 Console.WriteLine("What is wrong with you?");
